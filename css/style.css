@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;  
+    font-size: 32px;
+}
+
+.container-one {
+    width: 900px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    color: rgb(120, 120, 235);
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+li::marker {
+    color: black;
+    font-weight: 700;
+}
+
+.roman {
+    width: 700px;
+    list-style-position: inside;
+    margin: 0 auto;
+    list-style-type: upper-roman;  
+}
+
+.latin {
+    list-style-type: lower-latin;
+}
+
+.container-two {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(197, 201, 244);
+}
+
+.arrow {
+    width: 300px;
+    list-style-position: inside;
+    margin: 0 auto;
+    list-style-image: url(https://www.digitsu.com/includes/templates/premium5b/images/v2/arrow-right@32px.png) ;
+}
+
+.snowflake {
+    list-style-image: url(https://exiledkingdoms.com/wiki/images/6/6b/Cold.png);
+}
+
+.tulip {
+    list-style-image: url(https://dodo.ac/np/images/thumb/3/30/Pink_Tulips_NH_Inv_Icon.png/32px-Pink_Tulips_NH_Inv_Icon.png);
+}
+
+.watermelon {
+    list-style-image: url(https://fonts.gstatic.com/s/e/notoemoji/14.0/1f349/32.png);
+}
+
+.leaf {
+    list-style-image: url(https://yoursmileys.ru/vk/196.png);
+}
